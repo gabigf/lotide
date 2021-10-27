@@ -7,9 +7,9 @@ const eqArrays = (arr1, arr2) => {
   return true;
 };
 
-const assertEqualArrays = function(actual, expected) {
+const assertArraysEqual = function(actual, expected) {
   (eqArrays(actual, expected)) ? console.log(`✅✅✅  Assertion Passed: ${actual} === ${expected}`) : console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`);
 };
 
-console.log(assertEqualArrays([1,2,4,5], [1,2,4,5]));
-console.log(assertEqualArrays([1,2,4,5], [1,2,4,'5']));
+console.log(assertArraysEqual([1,2,4,5], [1,2,4,5]));
+console.log(assertArraysEqual([1,2,4,5], [1,2,4,'5']));
