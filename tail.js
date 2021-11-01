@@ -1,13 +1,5 @@
-const assertEqual = function(actual, expected) {
-  (actual === expected) ? console.log(`✅✅✅  Assertion Passed: ${actual} === ${expected}`) : console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`);
-};
-
-const words = [];
-
 const tail = arr => arr.slice(1);
 
-console.log(tail(words));
+console.log(tail(['here', 'are', 'some', 'words']))
 
-assertEqual(words.length, 3);
-
-
+module.exports = tail;
