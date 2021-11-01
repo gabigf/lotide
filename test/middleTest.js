@@ -14,5 +14,6 @@ describe('#middle', () => {
     it("returns ['two', 'three'] for input of ['one', 'two', 'three', 'four']", () => {
         assert.deepEqual(middle(['one', 'two', 'three', 'four']), ['two', 'three']);
     });
+    
 });
 

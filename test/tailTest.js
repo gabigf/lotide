@@ -1,6 +1,5 @@
 const assert = require('chai').assert;
 const tail = require('../tail');
-const words = ['here', 'are', 'some', 'words'];
 
 describe('#tail', () => {
     it("returns ['b', 'c', 'd'] for input of ['a', 'b', 'c', 'd']", () => {
@@ -14,6 +13,6 @@ describe('#tail', () => {
     it('returns [] for input of []', () => {
         assert.deepEqual(tail([]), []);
     });
-    
+
 });
 
