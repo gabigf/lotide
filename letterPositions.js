@@ -18,7 +18,7 @@ const letterPositions = function(sentence) {
 module.exports = letterPositions;
 
 
-const alexisMateo = letterPositions('BAM');
+// const alexisMateo = letterPositions('BAM');
 
-console.log(letterPositions('lighthouse in the house'));
-console.log(assertArraysEqual(letterPositions(alexisMateo['B']), 1));
+// console.log(letterPositions('lighthouse in the house'));
+// console.log(assertArraysEqual(letterPositions(alexisMateo['B']), 1));

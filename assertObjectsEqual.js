@@ -9,4 +9,4 @@ const assertObjectsEqual = function(actual, expected) {
 module.exports = assertObjectsEqual;
 
 
-console.log(assertObjectsEqual({ name: 'Gabi'}, { name: 'Gabi'}));
+// console.log(assertObjectsEqual({ name: 'Gabi'}, { name: 'Gabi'}));

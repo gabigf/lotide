@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@gabigf/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "A mini clone of the lodash library | Project for Lighthouse Labs",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://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@github.com/gabigf/lotide.git"
   },
-  "author": "",
+  "author": "Gabriela Guimarães",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/gabigf/lotide/issues"

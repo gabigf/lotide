@@ -15,8 +15,8 @@ const countLetters = str => {
 
 module.exports = countLetters;
 
-const ruPaul = countLetters('Shantay you stay');
+// const ruPaul = countLetters('Shantay you stay');
 
-console.log(countLetters('hello there'));
-console.log(countLetters('lighthouse in the house'));
-console.log(assertEqual(ruPaul['y'], 3));
+// console.log(countLetters('hello there'));
+// console.log(countLetters('lighthouse in the house'));
+// console.log(assertEqual(ruPaul['y'], 3));
